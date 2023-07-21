@@ -475,6 +475,13 @@ form {
   font-weight: 600;
 }
 
+.personal-content .btn {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: var(--white-color);
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;
