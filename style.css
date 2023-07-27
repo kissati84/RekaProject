@@ -495,6 +495,11 @@ form {
   padding: 5rem 1rem;
 }
 
+.review-container h3 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
 .fb-comments {
   margin-top: 4rem;
 }
