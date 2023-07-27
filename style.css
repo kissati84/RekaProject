@@ -487,6 +487,14 @@ form {
   color: var(--white-color);
 }
 
+.review-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 1rem;
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;
