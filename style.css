@@ -492,7 +492,8 @@ form {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 5rem 1rem;
+  padding-left: 25rem;
+  padding-right: 25rem;
 }
 
 .review-container h3 {
@@ -1004,6 +1005,11 @@ ul {
     transform: rotate(180deg) translate(-210px, -335px);
   }
 
+  .review-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .contact form .input-box input {
     width: 100%;
   }
@@ -1012,6 +1018,11 @@ ul {
 @media (max-width: 365px) {
   .about-img img {
     width: 90vw;
+  }
+
+  .review-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .footer {
