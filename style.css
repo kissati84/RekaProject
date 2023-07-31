@@ -406,6 +406,13 @@ form {
   font-weight: 600;
 }
 
+.reiki-content .btn {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: var(--white-color);
+}
+
 .human {
   display: flex;
   justify-content: center;
@@ -441,6 +448,13 @@ form {
   font-size: 2rem;
   color: var(--main-color);
   font-weight: 600;
+}
+
+.human-content .btn {
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: var(--white-color);
 }
 
 .personal {
