@@ -408,12 +408,12 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="https://formsubmit.co/el/jobamu" method="POST">
+      <form action="" id="contact-form">
         <div class="input-box">
-          <input type="text" name="Name" placeholder="Full Name" required />
+          <input type="text" name="user_name" placeholder="Full Name" required />
           <input
             type="email"
-            name="Email"
+            name="user_email"
             placeholder="Email Adress"
             required
           />
@@ -422,25 +422,28 @@
         <div class="input-box">
           <input
             type="number"
-            name="Number"
+            name="user_number"
             placeholder="Mobile Number"
             required
           />
           <input
             type="text"
-            name="Subject"
+            name="user_subject"
             placeholder="Email Subject"
             required
           />
         </div>
         <textarea
-          name="Message"
+          name="user_message"
           id=""
           cols="30"
           rows="10"
           placeholder="Your Message"
           required
         ></textarea>
+
+        <p class="contact-message" id="contact-message"></p>
+        
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
         <input type="submit" value="Send Message" class="btn" />
